@@ -15,7 +15,7 @@ public class Main {
             XYSeries series = new XYSeries("f(x) = x");
             for (double x = -10; x <= 10; x += 0.1) {
                 double y;
-                y= Math.pow(x,3);
+                y= Math.sin(x);
                 series.add(x, y);
             }
             //Conjunto de Dados com a série XY
